@@ -1,0 +1,60 @@
+@font-face{
+    font-family:myFont;
+    src:url(Archivo-Regular.ttf);
+}
+body{
+    font-family:myFont;
+    font-weight: 550;
+}
+.container{
+    border:1px solid black;
+    margin-left: 15%;
+    margin-top: 50px;
+    background-color: gray;
+    border-radius: 20px;
+    height: 1500px;
+    width: 1000px;
+}
+.topNav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between; 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    /* display:inline-block; */
+    background-color: black;
+    color: white;
+    height: 50px;
+    width:100%;
+}
+.tags{
+    display:flex;
+    margin:50px;
+}
+.tags2{
+    /* height:30px; */
+    width:fit-content;
+    padding:5px 10px 4px 10px;
+    margin: 2px;
+}
+.help{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 150px;
+    height:250px;
+    width:100%;
+    background-color: #dadbf1;
+}
+.searchBox{
+    height:50px;
+    width:65%;
+    background-color: white;
+    margin-left: 150px;
+    border-radius:5px;
+}
+
+.settings{
+    height:750px;
+    width:100%;
+    background-color:white;
+}
