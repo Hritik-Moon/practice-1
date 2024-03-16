@@ -12,7 +12,7 @@ body{
     margin-top: 50px;
     background-color: gray;
     border-radius: 20px;
-    height: 1500px;
+    height: 1400px;
     width: 1000px;
 }
 .topNav{
@@ -78,15 +78,21 @@ a{
 
 .about{
     display:grid;
-    height:30%;
+    height:25%;
     width:100%;
     border-bottom-left-radius:20px;
     border-bottom-right-radius: 20px;
     background-color:black;
     grid-template-columns: 20% 20% 20% 20% 20%;
+    color:white;
 }
 
+.about>div>img{
+    height:50px;
+    width:50px;
+}
 
-h3.about{
-    color:white;
+.about>div{
+    clear:left;
+    margin:20px 50px;
 }
