@@ -57,4 +57,36 @@ body{
     height:750px;
     width:100%;
     background-color:white;
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+
+.sett{
+    margin:30px 50px;
+}
+img{
+    margin:5px 10px;
+    float:left;
+    height:100px;
+    width:100px;
+    mix-blend-mode:multiply;
+}
+a{
+    margin-left:120px;
+}
+
+
+.about{
+    display:grid;
+    height:30%;
+    width:100%;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius: 20px;
+    background-color:black;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+
+h3.about{
+    color:white;
 }
